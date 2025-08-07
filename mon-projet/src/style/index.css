@@ -1,3 +1,6 @@
+body{
+  font-family: Arial, sans-serif;
+}
 .header{
     display: flex;
     align-items: center;
@@ -46,4 +49,126 @@
 .logo{width: auto;
   height: 30px;
 
+}
+/* src/components/HeroSection.css */
+/* .hero-section {
+  padding: 4rem 1rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  
+} */
+
+.welcome-badge {
+  display: inline-block;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.highlight-green {
+  color: #22c55e;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+  .gauche{
+    display: flex;
+    justify-content: center;
+    width: 380px; ;
+    height: 300px;
+  }
+  .te{
+    display: flex;
+    gap: 10px;
+   
+     
+  }
+    .botton-t{
+  background-color:#0DB760 ;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px;
+  color: #FFFFFF;
+  border-color: #0DB760;
+
+}
+ .botton-e{
+  
+   padding: 10px;
+background-color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+
+}
+.per{width: auto;
+  height: 400px;}
+.deuxieme{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  }
+  .trois {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  margin:  40px 300px;
+  width: 1000px; 
+  padding-left: 80px;
+
+}
+
+.hi {
+  background-color: #FFFFFF;
+  
+ 
+}
+
+.FOOTER{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  padding: 20px 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.footer-line {
+  border-top: 2px solid #ccc;
+  width: 80%;          /* ← ajuste la longueur du trait */
+  margin: 0 auto;      /* ← centre le trait horizontalement */
+  margin-top: 40px;
+}
+
+.contact-button {
+  color: #0DB760;
+  border: 1.5px solid #0DB760;
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

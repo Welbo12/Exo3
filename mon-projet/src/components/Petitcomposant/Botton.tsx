@@ -2,8 +2,8 @@ import React from 'react'
 
 type buttonProps= {
      className?:string
-    label:string
-    onClick:()=>void
+    label?:string
+    onClick?:()=>void
     type?:'button'|'submit'|'reset'
 }
 const Botton:React.FC<buttonProps>=({label,className="",onClick,type="button"})=> {
