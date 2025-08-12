@@ -161,7 +161,7 @@ background-color: #FFFFFF;
   margin-top: 40px;
 }
 
-.contact-button {
+/* .contact-button {
   color: #0DB760;
   border: 1.5px solid #0DB760;
   background-color: transparent;
@@ -171,4 +171,7 @@ background-color: #FFFFFF;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
-}
+} */
+ .but{
+  align-items: center;
+ } 
